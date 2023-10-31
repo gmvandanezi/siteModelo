@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    background: black;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 18px;
+    color: white;
+}
+
+.img-content {
+    height: 650px;
+    width: 700px;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img-content img {
+    height: 100%;
+    margin: 0 auto;
+}
+
+.text-content {
+    width: 700px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    gap: .5rem;
+}
+
+.content {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.img-full {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.img-full img {
+    height: 100%;
+}
+
+.gradient {
+    background-image: linear-gradient(to right, rgb(255, 255, 255), #008b0c);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+}
+
+.btn-link {
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(144deg, #004203, #008b0c 50%, #00eb4e);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(109, 252, 65, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-family: Phantomsans, sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 140px;
+    padding: 3px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.btn-link:active,
+.btn-link:hover {
+    outline: 0;
+}
+
+.btn-link span {
+    background-color: rgb(5, 45, 5);
+    padding: 16px 24px;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+}
+
+.btn-link:hover span {
+    background: none;
+}
+
+@media (min-width: 768px) {
+    .btn-link {
+        font-size: 24px;
+        min-width: 196px;
+    }
+}
+
+/* Barra de navegação */
+
+.navbar {
+    height: 120px;
+    background: black;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+    border-bottom: 1px solid grey;
+}
+
+.logo {
+    height: 80px;
+    width: 120px;
+    border: 1px solid #008b0c;
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+
+.item-menu {
+    list-style: none;
+}
+
+.item-menu a {
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+    color: white;
+    transition: .5s;
+}
+
+.item-menu a:hover {
+    color: #008b0c;
+}
+
+/* fim */
+
+/* section home */
+
+#home {
+    max-width: 98%;
+    margin: 0 auto;
+    height: 80vh;
+    background: rgb(34, 34, 34);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1rem;
+    overflow: auto;
+}
+
+#home div {
+    height: 500px;
+    width: 700px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* section about */
+
+#about {
+    max-width: 98%;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    overflow: auto;
+}
+
+/* fim */
+
+/* section depo */
+
+#info {
+    max-width: 98%;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    overflow: auto;
+}
