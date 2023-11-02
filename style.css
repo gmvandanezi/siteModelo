@@ -30,7 +30,7 @@ p {
 
 .container {
     max-width: 90%;
-    margin: 0 auto;
+    margin-top: 90px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -62,33 +62,6 @@ p {
 
 .media img {
     width: 90%;
-}
-
-.img-content {
-    height: 400px;
-    width: 500px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-
-.img-content img {
-    width: 90%;
-}
-
-
-
-.img-full {
-    width: 100%;
-    height: 80vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.img-full img {
-    height: 100%;
 }
 
 .gradient {
@@ -145,14 +118,17 @@ p {
 /* Barra de navegação */
 
 .navbar {
-    height: 120px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    height: 90px;
     background: black;
     padding: 0 2rem;
     display: flex;
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 30px;
 }
 
 .logo {
@@ -207,7 +183,7 @@ p {
 }
 
 @media (max-width: 900px) {
-    .logo{
+    .logo {
         height: 40px;
         margin-top: 2rem;
     }
@@ -281,7 +257,7 @@ p {
     }
 
     #nav.active #menu {
-        height: calc(30vh - 80px);
+        height: 150px;
         visibility: visible;
         padding: 14px;
     }

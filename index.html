@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -38,15 +39,16 @@
             <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
                 piece of classical
                 Latin literature from 45 BC, making it over 2000 years old.</p>
-            <a href="#port" class="btn-link"><span>blabla</span></a>
+            <a href="#section4" class="btn-link"><span>section4</span></a>
         </div>
         <div class="media">
             <img src="./assets/backpack.png" alt="">
         </div>
     </section>
 
-    <section id="section2" class="container">
-        <div class="img-content">
+    <section id="section2" class="container" data-aos="fade-up" data-aos-duration="500"
+        data-aos-anchor-placement="bottom-bottom">
+        <div class="media">
             <img src="./assets/backpack.png" alt="spider-man">
         </div>
         <div class="content">
@@ -57,11 +59,47 @@
             <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
                 piece of classical
                 Latin literature from 45 BC, making it over 2000 years old.</p>
-            <a href="#contact" class="btn-link"><span>blabla</span></a>
+            <a href="#section3" class="btn-link"><span>section3</span></a>
+        </div>
+    </section>
+
+    <section id="section3" class="container">
+        <div class="content">
+            <h1 class="gradient">Contrary to popular belief, Lorem Ipsum is not simply random text.</h1>
+            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+                piece of classical
+                Latin literature from 45 BC, making it over 2000 years old.</p>
+            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+                piece of classical
+                Latin literature from 45 BC, making it over 2000 years old.</p>
+            <a href="#section1" class="btn-link"><span>section1</span></a>
+        </div>
+        <div class="media">
+            <img src="./assets/backpack.png" alt="spider-man">
+        </div>
+    </section>
+
+    <section id="section4" class="container">
+        <div class="media">
+            <img src="./assets/backpack.png" alt="spider-man">
+        </div>
+        <div class="content">
+            <h1 class="gradient">Contrary to popular belief, Lorem Ipsum is not simply random text.</h1>
+            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+                piece of classical
+                Latin literature from 45 BC, making it over 2000 years old.</p>
+            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+                piece of classical
+                Latin literature from 45 BC, making it over 2000 years old.</p>
+            <a href="#section2" class="btn-link"><span>section2</span></a>
         </div>
     </section>
 
     <script src="scripts.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
