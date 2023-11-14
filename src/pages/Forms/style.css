@@ -1,0 +1,39 @@
+#forms {
+    background: rgb(214, 236, 224);
+    margin: 0 auto;
+    padding: 1rem 0;
+}
+
+.banner {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    background: url(https://dquj9wjgka7ut.cloudfront.net/company/10212965/user/12853083/web-forms-public/cd27f11f-480d-446a-ada9-c6de0cd7e742.webp) center center / 480px no-repeat;
+    height: 160px;
+    max-width: 480px;
+    margin: 0px auto 8px;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 8px;
+    border-radius: 4px;
+    object-fit: contain;
+    transition: .2s;
+}
+
+.pipedriveWebForms {
+    max-width: 480px;
+    margin: 0px auto;
+    padding: 32px;
+    transition: all 400ms ease 0s;
+    background-color: rgb(255, 255, 255);
+    color: rgb(31, 31, 31);
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 8px;
+    border-radius: 4px;
+}
+
+@media (max-width: 360px) {
+    .banner {
+        background: url(https://dquj9wjgka7ut.cloudfront.net/company/10212965/user/12853083/web-forms-public/cd27f11f-480d-446a-ada9-c6de0cd7e742.webp) center center / 360px no-repeat;
+        width: 360px;
+    }
+}
