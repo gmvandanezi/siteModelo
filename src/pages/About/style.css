@@ -1,0 +1,15 @@
+.card-body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 1rem;
+    border-radius: 7px;
+    background: #008b0c;
+}
+
+.card-body strong{
+    font-size: 26px;
+    color: white;
+}

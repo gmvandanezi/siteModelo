@@ -1,6 +1,6 @@
 import './style.css';
 import { Link } from 'react-router-dom';
-import img from '../../assets/logo.png';
+import logo from '../../assets/logo.png';
 
 function Nav() {
 
@@ -12,7 +12,7 @@ function Nav() {
   return (
     <nav className='navbar'>
       <div className='logo'>
-        <Link to="/"><img src={img} alt="logo" /></Link>
+        <Link to="/"><img src={logo} alt="logo" /></Link>
       </div>
 
       <div id="nav">

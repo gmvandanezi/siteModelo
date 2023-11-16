@@ -1,4 +1,9 @@
-.bg-banner {
-    background: rgb(34, 34, 34);
-    border-radius: 30px;
+.bg-dark-green{
+    background: url("/src/assets/bgGreenDark.png") no-repeat center center;
+    background-size: cover;
+}
+
+.card-depoiment{
+    background: black;
+    z-index: 9999;
 }
