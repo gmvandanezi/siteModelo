@@ -4,8 +4,8 @@ import logo from '../../assets/logo.png';
 
 function Footer() {
 
-  const whatsappLink = "https://wa.me/5532984120294";
-  const instagramLink = "https://www.instagram.com/pontocertojf";
+  const whatsappLink = "#";
+  const instagramLink = "#";
 
   return (
     <div className='footer'>
