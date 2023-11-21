@@ -42,7 +42,6 @@ h1 {
 p {
   font-size: max(14px, 1.1vw);
   color: white;
-  text-shadow: #008b0c 0.2em 0.2em 0.3em;
 }
 
 #btnTopo {
@@ -78,7 +77,7 @@ p {
   align-items: center;
   justify-content: space-evenly;
   overflow: hidden;
-  padding: 90px 30px 30px 30px;
+  padding: .5rem;
 }
 
 .bg-banner {

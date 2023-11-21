@@ -35,15 +35,15 @@ function Home() {
             Latin literature from 45 BC, making it over 2000 years old.</p>
           <Link className="btn-link" to='/sobre'><span>Sobre</span></Link>
         </div>
-        <div className="media" data-aos="fade-left" data-aos-duration="900" data-aos-anchor-placement="top-center">
+        <div className="media" data-aos="fade-left" data-aos-duration="900">
           <img src={mochilaVerde} alt="" />
         </div>
       </div>
       <div className='container'>
-        <div className="media" data-aos="fade-right" data-aos-duration="900" data-aos-anchor-placement="top-center">
+        <div className="media" data-aos="fade-right" data-aos-duration="900">
           <img src={camisaVerde} alt="" />
         </div>
-        <div className="content" data-aos="fade-left" data-aos-duration="900" data-aos-anchor-placement="top-center">
+        <div className="content" data-aos="fade-left" data-aos-duration="900">
           <h1 className="gradient">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots
             in
             a
