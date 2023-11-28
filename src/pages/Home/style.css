@@ -1,9 +1,37 @@
-.bg-dark-green{
+.container-dp {
     background: url("/src/assets/bgGreenDark.png") no-repeat center center;
     background-size: cover;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow: hidden;
+    padding: .5rem;
 }
 
-.card-depoiment{
-    background: black;
+.content-dp {
+    width: 600px;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: center;
+    gap: .7rem;
+}
+
+.card-depoiment {
+    background: transparent;
     z-index: 9999;
+}
+
+.swiper {
+    width: 600px;
+    height: 300px;
+}
+
+.swiper-slide {
+    padding: 4rem;
 }
